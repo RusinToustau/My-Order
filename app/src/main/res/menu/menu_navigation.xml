@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <group android:id="@+id/menu_navegation">
+
+        <item
+            android:id="@+id/historyItem"
+            android:title="@string/item_orders_history" />
+
+        <item
+            android:id="@+id/orderItem"
+            android:title="@string/item_current_order" />
+
+        <item
+            android:id="@+id/profileItem"
+            android:title="@string/item_profile" />
+
+    </group>
+
+</menu>

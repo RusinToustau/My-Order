@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">My Order</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="item_orders_history">Orders history</string>
+    <string name="item_current_order">Current order</string>
+    <string name="item_profile">Profile</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="btn_goMenu">Menu</string>
+
+    <string name="connection_lost">the connection has been lost</string>
+
+    <string name="description_2">Observations</string>
+    <string name="description_3">ingresar aquí alguna observación</string>
+
+
+</resources>

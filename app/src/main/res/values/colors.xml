@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#F44336</color>
+    <color name="colorPrimaryDark">#D32F2F</color>
+    <color name="colorAccent">#FFC107</color>
+    <color name="colorPrimaryLight">#FFCDD2</color>
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#757575</color>
+    <color name="icons">#FFFFFF</color>
+    <color name="divider">#BDBDBD</color>
+
+    <color name="background_login">#25ae90</color>
+    <color name="background_register">#3a4048</color>
+
+    <color name="textButtons">#FFFFFF</color>
+
+    <color name="colorPrimarySuperDark">#831c1c</color>
+    <color name="transparent">#00ffffff</color>
+    <color name="transparentBlack">#a6000000</color>
+
+
+</resources>

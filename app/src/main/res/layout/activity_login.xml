@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="apps.kinmniekan_code.pedidosfirebase.VIEW.LoginActivity">
+    <include layout="@layout/toolbar"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/input_layout_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:hint="Fullname"
+            app:hintTextAppearance="@style/AppTheme.FloatingLabel">
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/et_nombre_logIn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:inputType="text"
+                android:digits="0,1,2,3,4,5,6,7,8,9,*, ,qwertzuiopasdfghjklyxcvbñnm,ABCDEFGHIJKLMNÑOPQRSTUVWXYZ,áéíóú,_,-"
+                android:theme="@style/EditText"/>
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/input_layout_pass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:hint="Password"
+            app:hintTextAppearance="@style/AppTheme.FloatingLabel">
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/et_pass_logIn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:inputType="textPassword"
+                android:digits="0,1,2,3,4,5,6,7,8,9,*,qwertzuiopasdfghjklyxcvbñnm,ABCDEFGHIJKLMNÑOPQRSTUVWXYZ,_,-"
+                android:theme="@style/EditText"/>
+
+        </android.support.design.widget.TextInputLayout>
+
+        <TextView
+            android:id="@+id/tv_email_logIn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:hint="Email"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:inputType="textEmailAddress" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="10dp">
+            <Button
+                android:id="@+id/btn_register_logIn"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/boton_1"
+                android:textColor="@color/textButtons"
+                android:textSize="17dp"
+                android:text="Register"/>
+
+            <Button
+                android:id="@+id/btn_login_logIn"
+                android:layout_width="150dp"
+                android:layout_marginLeft="15dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/boton_1"
+                android:textColor="@color/textButtons"
+                android:textSize="17dp"
+                android:text="Login"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

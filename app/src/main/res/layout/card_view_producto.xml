@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:orientation="horizontal"
+    android:background="@null"
+    tools:background="@color/negrotrasparencia">
+
+        <ImageView
+            android:id="@+id/iv_imagen_cv_producto"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:scaleType="fitCenter"
+            android:background="@null" />
+
+        <TextView
+            android:id="@+id/tv_nombre_cv_producto"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Hamburguesa Olmedo"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:background="@null"
+            android:textColor="@android:color/white"/>
+
+        <TextView
+            android:id="@+id/tv_precio_cv_producto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="@android:color/white"
+            android:background="@null"
+            android:textSize="15dp"
+            android:text="$90.00"/>
+
+</LinearLayout>
